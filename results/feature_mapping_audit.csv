@@ -1,0 +1,35 @@
+Paper_Feature,OASIS_Source,Candidate_Column,Actual_Column,CSV_Column_Exists,Dictionary_Match,Dictionary_Sheet,Dictionary_Row,Dictionary_Evidence,Status
+DIGIF,Psychometrics,digforct,digforct,True,True,pyschometircs,43,DIGIF | DIGIF  | WMS-R DIGIT SPAN FORWARD (total number of trials) | Num  | 0-12 | High score = good,Candidate verified structurally
+DIGIFLEN,Psychometrics,digforsl,digforsl,True,False,,,,CSV column found; dictionary variable not found
+DIGIB,Psychometrics,digbacct,digbacct,True,True,pyschometircs,44,DIGIB | DIGIB  | WMS-R DIGIT SPAN BACKWARD (total number of trials) | Num  | 0-12 | High score = good,Candidate verified structurally
+DIGIBLEN,Psychometrics,digbacls,digbacls,True,False,,,,CSV column found; dictionary variable not found
+LOGIMEM,Psychometrics,LOGIMEM,LOGIMEM,True,True,pyschometircs,23,LOGIMEM | LOGIMEM  | LOGICAL MEMORY IA – Immediate | Num  | 0-25 | High score = good,Candidate verified structurally
+MEMUNITS,Psychometrics,MEMUNITS,MEMUNITS,True,True,pyschometircs,24,MEMUNITS | MEMUNITS  | LOGICAL MEMORY IIA – Delayed | Num  | 0-25 | High score = good,Candidate verified structurally
+ANIMALS,Psychometrics,ANIMALS,ANIMALS,True,True,pyschometircs,11,ANIMALS | ANIMALS  | CATEGORY FLUENCY - ANIMALS | Num  | 0 and above | High score = good,Candidate verified structurally
+VEG,Psychometrics,VEG,VEG,True,True,pyschometircs,12,VEG | VEG  | CATEGORY FLUENCY - VEGETABLES | Num  | 0 and above | High score = good,Candidate verified structurally
+TRAILA,Psychometrics,tma,tma,True,True,pyschometircs,45,TRAILA | TRAILA  | TRAILMAKING A (number of seconds) | Num  | 0-150 | High score = good,Candidate verified structurally
+TRAILARR,Psychometrics,,,False,False,,,,Not found in dictionary or CSV
+TRAILALI,Psychometrics,,,False,False,,,,Not found in dictionary or CSV
+TRAILB,Psychometrics,tmb,tmb,True,True,pyschometircs,109,trailb,Candidate verified structurally
+TRAILBRR,Psychometrics,,,False,False,,,,Not found in dictionary or CSV
+TRAILBLI,Psychometrics,,,False,False,,,,Not found in dictionary or CSV
+WAIS,Psychometrics,digsym,digsym,True,False,,,,CSV column found; dictionary variable not found
+MEMTIME,Psychometrics,lmdelay,lmdelay,True,False,,,,CSV column found; dictionary variable not found
+BOSTON,Psychometrics,bnt,bnt,True,False,,,,CSV column found; dictionary variable not found
+lhCortexVol,FreeSurfer,lhCortexVol,lhCortexVol,True,False,,,,CSV column found; dictionary variable not found
+IntraCranialVol,FreeSurfer,IntraCranialVol,IntraCranialVol,True,False,,,,CSV column found; dictionary variable not found
+SupraTentorialVol,FreeSurfer,SupraTentorialVol,SupraTentorialVol,True,False,,,,CSV column found; dictionary variable not found
+LhCorticalWhiteMatterVol,FreeSurfer,lhCorticalWhiteMatterVol,lhCorticalWhiteMatterVol,True,False,,,,CSV column found; dictionary variable not found
+SubCortGrayVol,FreeSurfer,SubCortGrayVol,SubCortGrayVol,True,False,,,,CSV column found; dictionary variable not found
+AgeAtEntry,Demographics,AgeatEntry,AgeatEntry,True,True,demographics,4,AgeatEntry | Num ,Candidate verified structurally
+Homehobb,UDSb4,homehobb,homehobb,True,True,UDSb4 v2 v3,12,HOMEHOBB  | Home & Hobbies | 0-None | 0.5-Questionable | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Judgment,UDSb4,judgment,judgment,True,True,UDSb4 v2 v3,10,JUDGMENT  | Judgment & Problem Solving | 0-None | 0.5-Questionable | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Commun,UDSb4,commun,commun,True,True,UDSb4 v2 v3,11,COMMUN  | Community Affairs | 0-None | 0.5-Questionable | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Memory,UDSb4,memory,memory,True,True,UDSb4 v2 v3,8,MEMORY  | Memory | 0-None | 0.5-Questionable | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Orient,UDSb4,orient,orient,True,True,UDSb4 v2 v3,9,ORIENT  | Orientation | 0-None | 0.5-Questionable | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Perscare,UDSb4,perscare,perscare,True,True,UDSb4 v2 v3,13,PERSCARE  | Personal Care | 0-None | 1-Mild | 2-Moderate | 3-Severe | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+MMSE,UDSb4,MMSE,MMSE,True,True,UDSb4 v2 v3,7,mmse,Candidate verified structurally
+APOE,Demographics,APOE,APOE,True,True,demographics,21,APOE,Candidate verified structurally
+Sumbox,UDSb4,CDRSUM,CDRSUM,True,False,,,,CSV column found; dictionary variable not found
+Height,UDSb1,HEIGHT,HEIGHT,True,True,UDSb1 v2 v3,6,height | 1. Subject Height (inches) | 88.8=not assessed | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally
+Weight,UDSb1,WEIGHT,WEIGHT,True,True,UDSb1 v2 v3,7,weight  | 2. Subject Weight (lbs) | 888=not assessed | Num  | 8.0 | UDS2 & UDS3,Candidate verified structurally

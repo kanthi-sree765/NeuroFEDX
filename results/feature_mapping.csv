@@ -1,0 +1,35 @@
+Paper_Feature,OASIS_Source,Candidate_Column,Actual_Column,Status
+DIGIF,Psychometrics,digforct,digforct,Candidate verified structurally
+DIGIFLEN,Psychometrics,digforsl,digforsl,CSV column found; dictionary variable not found
+DIGIB,Psychometrics,digbacct,digbacct,Candidate verified structurally
+DIGIBLEN,Psychometrics,digbacls,digbacls,CSV column found; dictionary variable not found
+LOGIMEM,Psychometrics,LOGIMEM,LOGIMEM,Candidate verified structurally
+MEMUNITS,Psychometrics,MEMUNITS,MEMUNITS,Candidate verified structurally
+ANIMALS,Psychometrics,ANIMALS,ANIMALS,Candidate verified structurally
+VEG,Psychometrics,VEG,VEG,Candidate verified structurally
+TRAILA,Psychometrics,tma,tma,Candidate verified structurally
+TRAILARR,Psychometrics,,,Not found in dictionary or CSV
+TRAILALI,Psychometrics,,,Not found in dictionary or CSV
+TRAILB,Psychometrics,tmb,tmb,Candidate verified structurally
+TRAILBRR,Psychometrics,,,Not found in dictionary or CSV
+TRAILBLI,Psychometrics,,,Not found in dictionary or CSV
+WAIS,Psychometrics,digsym,digsym,CSV column found; dictionary variable not found
+MEMTIME,Psychometrics,lmdelay,lmdelay,CSV column found; dictionary variable not found
+BOSTON,Psychometrics,bnt,bnt,CSV column found; dictionary variable not found
+lhCortexVol,FreeSurfer,lhCortexVol,lhCortexVol,CSV column found; dictionary variable not found
+IntraCranialVol,FreeSurfer,IntraCranialVol,IntraCranialVol,CSV column found; dictionary variable not found
+SupraTentorialVol,FreeSurfer,SupraTentorialVol,SupraTentorialVol,CSV column found; dictionary variable not found
+LhCorticalWhiteMatterVol,FreeSurfer,lhCorticalWhiteMatterVol,lhCorticalWhiteMatterVol,CSV column found; dictionary variable not found
+SubCortGrayVol,FreeSurfer,SubCortGrayVol,SubCortGrayVol,CSV column found; dictionary variable not found
+AgeAtEntry,Demographics,AgeatEntry,AgeatEntry,Candidate verified structurally
+Homehobb,UDSb4,homehobb,homehobb,Candidate verified structurally
+Judgment,UDSb4,judgment,judgment,Candidate verified structurally
+Commun,UDSb4,commun,commun,Candidate verified structurally
+Memory,UDSb4,memory,memory,Candidate verified structurally
+Orient,UDSb4,orient,orient,Candidate verified structurally
+Perscare,UDSb4,perscare,perscare,Candidate verified structurally
+MMSE,UDSb4,MMSE,MMSE,Candidate verified structurally
+APOE,Demographics,APOE,APOE,Candidate verified structurally
+Sumbox,UDSb4,CDRSUM,CDRSUM,CSV column found; dictionary variable not found
+Height,UDSb1,HEIGHT,HEIGHT,Candidate verified structurally
+Weight,UDSb1,WEIGHT,WEIGHT,Candidate verified structurally
