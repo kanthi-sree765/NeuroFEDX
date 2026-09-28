@@ -7,3 +7,6 @@ joblib>=1.5,<2
 openpyxl>=3.1,<4
 shap>=0.50,<0.51
 pytest>=8.3,<9
+fastapi>=0.141,<1
+uvicorn>=0.54,<1
+psutil>=7.0,<8
