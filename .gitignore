@@ -1,0 +1,19 @@
+# OASIS-3 data - DO NOT upload
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets / environment
+.env
+
+# Logs
+logs/*.log
