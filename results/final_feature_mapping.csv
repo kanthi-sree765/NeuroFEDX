@@ -1,0 +1,40 @@
+paper_feature,modality,oasis_file,oasis_column,available,verified,interpreted,status,reason,source
+DIGIF,Psychological,Psychometrics,digforct,True,False,True,INTERPRETED,"Raw CSV also contains a literal 'DIGIF' column, but it is 100% null (0/7924 rows) in this export. 'digforct' ('digit span forward, trials correct') is the best-covered candidate (2,186 non-null) but NACC documents DIGIF and 'digfor'/'digforct' as related-but-distinct instrument variants across UDS versions. Not confirmed identical.",NACC UDS Researcher's Data Dictionary v3.0; this project's data files
+DIGIFLEN,Psychological,Psychometrics,digforsl,True,False,True,INTERPRETED,Same instrument-version ambiguity as DIGIF. No literal 'DIGIFLEN' column with non-null data exists.,NACC RDD v3.0; project data files
+DIGIB,Psychological,Psychometrics,digbacct,True,False,True,INTERPRETED,"Same situation as DIGIF: literal 'DIGIB' column exists but is 100% null; 'digbacct' substituted, not confirmed identical.",NACC RDD v3.0; project data files
+DIGIBLEN,Psychological,Psychometrics,digbacls,True,False,True,INTERPRETED,Same instrument-version ambiguity as DIGIB.,NACC RDD v3.0; project data files
+LOGIMEM,Psychological,Psychometrics,LOGIMEM,True,True,False,VERIFIED,"Exact column name match; dictionary confirms 'LOGICAL MEMORY IA - Immediate', range 0-25, matches data range exactly.","OASIS3_Clinical and Psychometrics_dictionary.xlsx, sheet 'pyschometircs'"
+MEMUNITS,Psychological,Psychometrics,MEMUNITS,True,True,False,VERIFIED,"Exact column name match; dictionary confirms 'LOGICAL MEMORY IIA - Delayed', range 0-25.",OASIS3_Clinical and Psychometrics_dictionary.xlsx
+ANIMALS,Psychological,Psychometrics,ANIMALS,True,True,False,VERIFIED,Exact column name match; dictionary confirms category fluency test.,OASIS3_Clinical and Psychometrics_dictionary.xlsx
+VEG,Psychological,Psychometrics,VEG,True,True,False,VERIFIED,Exact column name match; dictionary confirms category fluency test.,OASIS3_Clinical and Psychometrics_dictionary.xlsx
+TRAILA,Psychological,Psychometrics,tma,True,False,True,INTERPRETED,"Literal 'TRAILA' column exists (144 non-null, max=81s) but dictionary states range 0-150s; 'tma' has far higher coverage (7,216 non-null, max=180s). Semantically both plausible as 'Trail Making A, seconds to complete' but not proven to be the same underlying item across UDS versions.",NACC RDD v3.0; project data files
+TRAILARR,Psychological,Psychometrics,,False,False,False,UNAVAILABLE,"Confirmed real NACC UDS Form C1 item 7A1 ('Trail Making A: number of errors'). No column under this name, or any plausible alias, exists in OASIS3_UDSc1_cognitive_assessments.csv. Not invented.","NACC UDS Initial Packet Template (v2.0, Feb 2008); Knight ADRC Psychometric Codebook; this project's data files (confirmed absent)"
+TRAILALI,Psychological,Psychometrics,,False,False,False,UNAVAILABLE,Confirmed real NACC UDS Form C1 item 7A2 ('Trail Making A: number of correct lines'). Not present in this export.,NACC UDS Initial Packet Template (v2.0); Knight ADRC Psychometric Codebook
+TRAILB,Psychological,Psychometrics,tmb,True,False,True,INTERPRETED,"No literal 'TRAILB' column exists in this export ('trailb', lowercase, does exist separately with far fewer non-null rows: 1,082 vs. 'tmb' at 7,063). 'tmb' used as the higher-coverage proxy for Trail Making B seconds-to-complete; not confirmed identical to the paper's TRAILB.",NACC RDD v3.0; project data files
+TRAILBRR,Psychological,Psychometrics,,False,False,False,UNAVAILABLE,Confirmed real NACC UDS Form C1 item 7B1 ('Trail Making B: number of errors'). Not present in this export.,NACC UDS Initial Packet Template (v2.0); Knight ADRC Psychometric Codebook
+TRAILBLI,Psychological,Psychometrics,,False,False,False,UNAVAILABLE,Confirmed real NACC UDS Form C1 item 7B2 ('Trail Making B: number of correct lines'). Not present in this export.,NACC UDS Initial Packet Template (v2.0); Knight ADRC Psychometric Codebook
+WAIS,Psychological,Psychometrics,digsym,True,True,False,VERIFIED,"Dictionary explicitly defines 'digsym: WAIS-R Digit Symbol', range 0-93, matching the paper's 'WAIS' (WAIS-R Digit Symbol test).",OASIS3_Clinical and Psychometrics_dictionary.xlsx
+MEMTIME,Psychological,Psychometrics,,False,False,False,UNAVAILABLE,"Previously mapped to 'lmdelay' -- CORRECTED. NACC RDD item 9B defines MEMTIME as 'time (minutes) between LOGIMEM and MEMUNITS administration', a timing variable. 'lmdelay' is a WMS-III Logical Memory II Delayed Recall SCORE (0-50), a semantically different quantity, and no column resembling a time-elapsed field exists in this export. Do not substitute.",NACC UDS Initial Packet Template (v2.0); this project's audit
+BOSTON,Psychological,Psychometrics,bnt,True,True,False,VERIFIED,"Dictionary confirms 'bnt: Boston Naming Test (60 items)', range 0-60, matching column range exactly.",OASIS3_Clinical and Psychometrics_dictionary.xlsx
+lhCortexVol,MRI,FreeSurfer,lhCortexVol,True,True,False,VERIFIED,Exact column name match.,FreeSurfer CSV header
+IntraCranialVol,MRI,FreeSurfer,IntraCranialVol,True,True,False,VERIFIED,Exact column name match.,FreeSurfer CSV header
+SupraTentorialVol,MRI,FreeSurfer,SupraTentorialVol,True,True,False,VERIFIED,Exact column name match.,FreeSurfer CSV header
+LhCorticalWhiteMatterVol,MRI,FreeSurfer,lhCorticalWhiteMatterVol,True,True,False,VERIFIED,Exact column name match (case difference only).,FreeSurfer CSV header
+SubCortGrayVol,MRI,FreeSurfer,SubCortGrayVol,True,True,False,VERIFIED,Exact column name match.,FreeSurfer CSV header
+AgeAtEntry,Clinical,Demographics,AgeatEntry,True,True,False,VERIFIED,Exact column match (case difference only).,Demographics CSV header
+Homehobb,Clinical,UDSb4,homehobb,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+Judgment,Clinical,UDSb4,judgment,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+Commun,Clinical,UDSb4,commun,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+Memory,Clinical,UDSb4,memory,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+Orient,Clinical,UDSb4,orient,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+Perscare,Clinical,UDSb4,perscare,True,True,False,VERIFIED,Exact column match; CDR-block item.,UDSb4 CSV header
+MMSE,Clinical,UDSb4,MMSE,True,True,False,VERIFIED,Exact column match; dictionary confirms 0-30 range.,UDSb4 CSV header; dictionary
+APOE,Clinical,Demographics,APOE,True,True,False,VERIFIED,Exact column match.,Demographics CSV header
+Sumbox,Clinical,UDSb4,CDRSUM,True,True,False,VERIFIED,CDRSUM is the standard CDR 'sum of boxes' variable name; 'Sumbox' in the paper is a shorthand for the same quantity.,NACC CDR documentation; UDSb4 CSV header
+Height,Clinical,UDSb1,HEIGHT,True,True,False,VERIFIED,Exact column match (case difference only).,UDSb1 CSV header
+Weight,Clinical,UDSb1,WEIGHT,True,True,False,VERIFIED,Exact column match (case difference only).,UDSb1 CSV header
+CortexVol,MRI,FreeSurfer,CortexVol,True,True,False,VERIFIED,"Exact column match. Paper explicitly drops this feature at Pearson threshold 0.95 (too highly correlated with lhCortexVol/rhCortexVol) -- excluded from the final 34 by design, not by error.",FreeSurfer CSV header; paper Section IV.B.3
+RhCortexVol,MRI,FreeSurfer,rhCortexVol,True,True,False,VERIFIED,Exact column match (case difference only). Dropped by Pearson pruning per the paper.,FreeSurfer CSV header; paper Section IV.B.3
+CorticalWhiteMatterVol,MRI,FreeSurfer,CorticalWhiteMatterVol,True,True,False,VERIFIED,Exact column match. Dropped by Pearson pruning per the paper.,FreeSurfer CSV header; paper Section IV.B.3
+TotalGrayVol,MRI,FreeSurfer,TotalGrayVol,True,True,False,VERIFIED,Exact column match. Dropped by Pearson pruning per the paper.,FreeSurfer CSV header; paper Section IV.B.3
+RhCorticalWhiteMatterVol,MRI,FreeSurfer,rhCorticalWhiteMatterVol,True,True,False,VERIFIED,Exact column match (case difference only). Dropped by Pearson pruning per the paper.,FreeSurfer CSV header; paper Section IV.B.3

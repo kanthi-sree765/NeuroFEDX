@@ -1,0 +1,39 @@
+OASIS_DX,Paper_Class,Evidence,Status
+Cognitively normal,CN,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD Dementia,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+uncertain dementia,Uncertain,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+Unc: ques. Impairment,Uncertain,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem w/depresss, not contribut",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+.,Others,PLOS ONE 2023 Table 2: 'no diagnosis recorded' -> Others,VERIFIED
+Incipient demt PTP,Non-AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+0.5 in memory only,Others,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"DLBD, primary",Non-AD,"Non-AD dementia category (Dementia with Lewy Bodies), per paper text",VERIFIED
+"AD dem w/depresss, contribut",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"Non AD dem, Other primary",Non-AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"uncertain, possible NON AD dem",Uncertain,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+Frontotemporal demt. prim,Non-AD,"Non-AD dementia category (frontotemporal), per paper text",VERIFIED
+"Vascular Demt, primary",Non-AD,"Non-AD dementia category (vascular), per paper text",VERIFIED
+AD dem w/CVD not contrib,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem Language dysf after,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem Language dysf prior,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem w/PDI after AD dem not contrib,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"Dementia/PD, primary",Non-AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem Language dysf with,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem distrubed social, after",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem w/CVD contribut,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem w/oth (list B) contribut,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+Unc: impair reversible,Uncertain,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem cannot be primary,AD,"PLOS ONE 2023 Table 2, direct listing (corrected from an earlier guess of 'Others' in this project's first draft)",VERIFIED
+AD dem w/oth (list B) not contrib,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem distrubed social, with",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"Vascular Demt, secondary",Non-AD,"Non-AD dementia category (vascular), per paper text",VERIFIED
+Incipient Non-AD dem,Non-AD,"PLOS ONE 2023 Table 2, direct listing (corrected from an earlier guess of 'Others' in this project's first draft)",VERIFIED
+AD dem w/PDI after AD dem contribut,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem visuospatial, with",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem w/oth unusual features/demt on,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+AD dem/FLD prior to AD dem,,Not in PLOS ONE 2023 Table 2 (mixed AD/frontotemporal presentation); assigned by pattern ('AD dem...' prefix -> AD) consistent with every other AD-prefixed label in the table.,NEEDS_VERIFICATION
+AD dem w/oth unusual feat/subs demt,AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem distrubed social, prior",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
+"AD dem visuospatial, prior",,Not in PLOS ONE 2023 Table 2; assigned by pattern ('AD dem...' prefix -> AD).,NEEDS_VERIFICATION
+AD dem w/oth unusual features,,Not in PLOS ONE 2023 Table 2; assigned by pattern ('AD dem...' prefix -> AD).,NEEDS_VERIFICATION
+"AD dem visuospatial, after",AD,"PLOS ONE 2023 Table 2, direct listing",VERIFIED
