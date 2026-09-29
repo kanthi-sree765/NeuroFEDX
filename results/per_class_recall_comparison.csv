@@ -1,0 +1,6 @@
+class,paper_faithful_recall,leakage_free_recall,grouped_cv_mean_recall
+AD,95.27,88.05,84.49
+CN,99.79,100.0,99.85
+Non-AD,98.07,0.0,0.0
+Others,99.57,0.0,0.0
+Uncertain,97.64,84.95,80.15
