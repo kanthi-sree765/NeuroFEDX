@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "top_k_features_per_modality": 5,
+  "samples_per_client": 1,
+  "shap_package_version": "0.50.0",
+  "additivity_tolerance": 1e-08,
+  "tasks": [
+    "diagnosis",
+    "severity"
+  ],
+  "sample_selection": "fixed random 1 client-test sample(s) per explained client, seed=42+client_id",
+  "note": "Post-hoc explanation only; no model retraining for explanation selection."
+}

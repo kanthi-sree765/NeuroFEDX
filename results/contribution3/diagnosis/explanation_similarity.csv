@@ -1,0 +1,3 @@
+sample_id,client_id,task,feature,global_shap_value,personalized_shap_value,difference,explained_class_match,global_predicted_class,personalized_predicted_class,spearman_correlation,spearman_pvalue,n_features_compared,top5_overlap,top10_overlap,modality_correlation
+OAS30108__row00054,0,diagnosis,__SUMMARY__,,,,True,Uncertain,Uncertain,0.773399014778325,8.693309444709912e-07,29.0,0.6666666666666666,0.8181818181818182,0.9999777861445784
+OAS30781__row00524,5,diagnosis,__SUMMARY__,,,,True,CN,CN,0.9152709359605908,3.6006101673053285e-12,29.0,1.0,1.0,0.9997956805589315

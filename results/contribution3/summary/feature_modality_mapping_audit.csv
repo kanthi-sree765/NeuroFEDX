@@ -1,0 +1,52 @@
+task,feature,modality,mapping_status
+diagnosis,DIGIF,Psychological / Cognitive,INTERPRETED
+diagnosis,DIGIFLEN,Psychological / Cognitive,INTERPRETED
+diagnosis,DIGIB,Psychological / Cognitive,INTERPRETED
+diagnosis,DIGIBLEN,Psychological / Cognitive,INTERPRETED
+diagnosis,LOGIMEM,Psychological / Cognitive,VERIFIED
+diagnosis,MEMUNITS,Psychological / Cognitive,VERIFIED
+diagnosis,ANIMALS,Psychological / Cognitive,VERIFIED
+diagnosis,VEG,Psychological / Cognitive,VERIFIED
+diagnosis,TRAILA,Psychological / Cognitive,INTERPRETED
+diagnosis,TRAILB,Psychological / Cognitive,INTERPRETED
+diagnosis,WAIS,Psychological / Cognitive,VERIFIED
+diagnosis,BOSTON,Psychological / Cognitive,VERIFIED
+diagnosis,lhCortexVol,MRI,VERIFIED
+diagnosis,IntraCranialVol,MRI,VERIFIED
+diagnosis,SupraTentorialVol,MRI,VERIFIED
+diagnosis,LhCorticalWhiteMatterVol,MRI,VERIFIED
+diagnosis,SubCortGrayVol,MRI,VERIFIED
+diagnosis,AgeAtEntry,Clinical / Demographic,VERIFIED
+diagnosis,Homehobb,Clinical / Demographic,VERIFIED
+diagnosis,Judgment,Clinical / Demographic,VERIFIED
+diagnosis,Commun,Clinical / Demographic,VERIFIED
+diagnosis,Memory,Clinical / Demographic,VERIFIED
+diagnosis,Orient,Clinical / Demographic,VERIFIED
+diagnosis,Perscare,Clinical / Demographic,VERIFIED
+diagnosis,MMSE,Clinical / Demographic,VERIFIED
+diagnosis,APOE,Clinical / Demographic,VERIFIED
+diagnosis,Sumbox,Clinical / Demographic,VERIFIED
+diagnosis,Height,Clinical / Demographic,VERIFIED
+diagnosis,Weight,Clinical / Demographic,VERIFIED
+severity,DIGIF,Psychological / Cognitive,INTERPRETED
+severity,DIGIFLEN,Psychological / Cognitive,INTERPRETED
+severity,DIGIB,Psychological / Cognitive,INTERPRETED
+severity,DIGIBLEN,Psychological / Cognitive,INTERPRETED
+severity,LOGIMEM,Psychological / Cognitive,VERIFIED
+severity,MEMUNITS,Psychological / Cognitive,VERIFIED
+severity,ANIMALS,Psychological / Cognitive,VERIFIED
+severity,VEG,Psychological / Cognitive,VERIFIED
+severity,TRAILA,Psychological / Cognitive,INTERPRETED
+severity,TRAILB,Psychological / Cognitive,INTERPRETED
+severity,WAIS,Psychological / Cognitive,VERIFIED
+severity,BOSTON,Psychological / Cognitive,VERIFIED
+severity,lhCortexVol,MRI,VERIFIED
+severity,IntraCranialVol,MRI,VERIFIED
+severity,SupraTentorialVol,MRI,VERIFIED
+severity,LhCorticalWhiteMatterVol,MRI,VERIFIED
+severity,SubCortGrayVol,MRI,VERIFIED
+severity,AgeAtEntry,Clinical / Demographic,VERIFIED
+severity,MMSE,Clinical / Demographic,VERIFIED
+severity,APOE,Clinical / Demographic,VERIFIED
+severity,Height,Clinical / Demographic,VERIFIED
+severity,Weight,Clinical / Demographic,VERIFIED

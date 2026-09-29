@@ -1,0 +1,465 @@
+{
+  "sample_id": "OAS30657__row00419",
+  "client_id": 0,
+  "task": "severity",
+  "models": {
+    "global": {
+      "predicted_class": "0",
+      "predicted_probability": 0.84,
+      "modalities": {
+        "Clinical / Demographic": {
+          "absolute_contribution": 0.15148721104472831,
+          "signed_contribution": 0.12977216850573697,
+          "normalized_contribution": 0.28106239309737685,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 1,
+              "feature": "MMSE",
+              "feature_value": 29.0,
+              "shap_value": 0.07881357961472293,
+              "abs_shap_value": 0.07881357961472293
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 2,
+              "feature": "APOE",
+              "feature_value": 33.0,
+              "shap_value": 0.023920840746788845,
+              "abs_shap_value": 0.023920840746788845
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 3,
+              "feature": "Height",
+              "feature_value": 63.0,
+              "shap_value": 0.019787984718718152,
+              "abs_shap_value": 0.019787984718718152
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 4,
+              "feature": "Weight",
+              "feature_value": 163.0,
+              "shap_value": 0.018107284695002723,
+              "abs_shap_value": 0.018107284695002723
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 5,
+              "feature": "AgeAtEntry",
+              "feature_value": 72.7726,
+              "shap_value": -0.010857521269495672,
+              "abs_shap_value": 0.010857521269495672
+            }
+          ]
+        },
+        "MRI": {
+          "absolute_contribution": 0.023316429008268268,
+          "signed_contribution": 0.01580964618176908,
+          "normalized_contribution": 0.04326022830807823,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 1,
+              "feature": "SupraTentorialVol",
+              "feature_value": 899800.8193,
+              "shap_value": 0.007927100344750323,
+              "abs_shap_value": 0.007927100344750323
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 2,
+              "feature": "LhCorticalWhiteMatterVol",
+              "feature_value": 214376.4149,
+              "shap_value": 0.007464392594456796,
+              "abs_shap_value": 0.007464392594456796
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 3,
+              "feature": "IntraCranialVol",
+              "feature_value": 1348426.161,
+              "shap_value": 0.004171544655811555,
+              "abs_shap_value": 0.004171544655811555
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 4,
+              "feature": "SubCortGrayVol",
+              "feature_value": 49276.0,
+              "shap_value": -0.003584508645939684,
+              "abs_shap_value": 0.003584508645939684
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 5,
+              "feature": "lhCortexVol",
+              "feature_value": 205943.9856,
+              "shap_value": -0.00016888276730991133,
+              "abs_shap_value": 0.00016888276730991133
+            }
+          ]
+        },
+        "Psychological / Cognitive": {
+          "absolute_contribution": 0.3641770801184283,
+          "signed_contribution": 0.35983099254903356,
+          "normalized_contribution": 0.6756773785945448,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 1,
+              "feature": "VEG",
+              "feature_value": 20.0,
+              "shap_value": 0.10981433804673267,
+              "abs_shap_value": 0.10981433804673267
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 2,
+              "feature": "MEMUNITS",
+              "feature_value": 14.0,
+              "shap_value": 0.06198853374648397,
+              "abs_shap_value": 0.06198853374648397
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 3,
+              "feature": "WAIS",
+              "feature_value": 55.0,
+              "shap_value": 0.060095202975927936,
+              "abs_shap_value": 0.060095202975927936
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 4,
+              "feature": "TRAILB",
+              "feature_value": 70.0,
+              "shap_value": 0.036930527399272904,
+              "abs_shap_value": 0.036930527399272904
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "global",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 5,
+              "feature": "DIGIF",
+              "feature_value": 10.0,
+              "shap_value": 0.0217967834094799,
+              "abs_shap_value": 0.0217967834094799
+            }
+          ]
+        },
+        "UNMAPPED": {
+          "absolute_contribution": 0.0,
+          "signed_contribution": 0.0,
+          "normalized_contribution": 0.0,
+          "top_features": []
+        }
+      },
+      "shap_additivity_error": 1.6653345369377348e-16
+    },
+    "personalized": {
+      "predicted_class": "0",
+      "predicted_probability": 0.8454545454545455,
+      "modalities": {
+        "Clinical / Demographic": {
+          "absolute_contribution": 0.14822956829442463,
+          "signed_contribution": 0.14106286378228908,
+          "normalized_contribution": 0.27852632255544496,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 1,
+              "feature": "MMSE",
+              "feature_value": 29.0,
+              "shap_value": 0.08598077236653784,
+              "abs_shap_value": 0.08598077236653784
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 2,
+              "feature": "APOE",
+              "feature_value": 33.0,
+              "shap_value": 0.025104927917978363,
+              "abs_shap_value": 0.025104927917978363
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 3,
+              "feature": "Height",
+              "feature_value": 63.0,
+              "shap_value": 0.01795785114278865,
+              "abs_shap_value": 0.01795785114278865
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 4,
+              "feature": "Weight",
+              "feature_value": 163.0,
+              "shap_value": 0.015602664611052001,
+              "abs_shap_value": 0.015602664611052001
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Clinical / Demographic",
+              "rank": 5,
+              "feature": "AgeAtEntry",
+              "feature_value": 72.7726,
+              "shap_value": -0.0035833522560677795,
+              "abs_shap_value": 0.0035833522560677795
+            }
+          ]
+        },
+        "MRI": {
+          "absolute_contribution": 0.028022146478534172,
+          "signed_contribution": 0.020403144389130434,
+          "normalized_contribution": 0.052654173513299644,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 1,
+              "feature": "LhCorticalWhiteMatterVol",
+              "feature_value": 214376.4149,
+              "shap_value": 0.008556874496391441,
+              "abs_shap_value": 0.008556874496391441
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 2,
+              "feature": "SupraTentorialVol",
+              "feature_value": 899800.8193,
+              "shap_value": 0.006901939705351202,
+              "abs_shap_value": 0.006901939705351202
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 3,
+              "feature": "IntraCranialVol",
+              "feature_value": 1348426.161,
+              "shap_value": 0.006459602691081764,
+              "abs_shap_value": 0.006459602691081764
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 4,
+              "feature": "SubCortGrayVol",
+              "feature_value": 49276.0,
+              "shap_value": -0.0038095010447018675,
+              "abs_shap_value": 0.0038095010447018675
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "MRI",
+              "rank": 5,
+              "feature": "lhCortexVol",
+              "feature_value": 205943.9856,
+              "shap_value": 0.002294228541007896,
+              "abs_shap_value": 0.002294228541007896
+            }
+          ]
+        },
+        "Psychological / Cognitive": {
+          "absolute_contribution": 0.3559405998866988,
+          "signed_contribution": 0.3501967874459654,
+          "normalized_contribution": 0.6688195039312554,
+          "top_features": [
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 1,
+              "feature": "VEG",
+              "feature_value": 20.0,
+              "shap_value": 0.10276646681703948,
+              "abs_shap_value": 0.10276646681703948
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 2,
+              "feature": "MEMUNITS",
+              "feature_value": 14.0,
+              "shap_value": 0.05678406488287574,
+              "abs_shap_value": 0.05678406488287574
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 3,
+              "feature": "WAIS",
+              "feature_value": 55.0,
+              "shap_value": 0.05626663141021743,
+              "abs_shap_value": 0.05626663141021743
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 4,
+              "feature": "TRAILB",
+              "feature_value": 70.0,
+              "shap_value": 0.03869894001632399,
+              "abs_shap_value": 0.03869894001632399
+            },
+            {
+              "sample_id": "OAS30657__row00419",
+              "client_id": 0,
+              "task": "severity",
+              "model_type": "personalized",
+              "predicted_class": "0",
+              "modality": "Psychological / Cognitive",
+              "rank": 5,
+              "feature": "DIGIF",
+              "feature_value": 10.0,
+              "shap_value": 0.019644078167475165,
+              "abs_shap_value": 0.019644078167475165
+            }
+          ]
+        },
+        "UNMAPPED": {
+          "absolute_contribution": 0.0,
+          "signed_contribution": 0.0,
+          "normalized_contribution": 0.0,
+          "top_features": []
+        }
+      },
+      "shap_additivity_error": 1.6653345369377348e-16
+    }
+  }
+}

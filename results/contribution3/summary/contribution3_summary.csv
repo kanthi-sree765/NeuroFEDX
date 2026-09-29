@@ -1,0 +1,3 @@
+task,n_features,n_explained_samples,n_unmapped_features,features_by_modality,max_additivity_error
+diagnosis,29,2,0,"{""Clinical / Demographic"": 12, ""Psychological / Cognitive"": 12, ""MRI"": 5, ""UNMAPPED"": 0}",2.220446049250313e-16
+severity,22,2,0,"{""Clinical / Demographic"": 5, ""Psychological / Cognitive"": 12, ""MRI"": 5, ""UNMAPPED"": 0}",1.6653345369377348e-16

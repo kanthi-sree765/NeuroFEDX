@@ -1,0 +1,9 @@
+task,client_id,sample_id,model_type,predicted_class,predicted_probability,max_additivity_error,n_features,n_global_trees,n_local_trees
+diagnosis,0,OAS30108__row00054,global,Uncertain,0.58,1.1102230246251565e-16,29,100,0
+diagnosis,0,OAS30108__row00054,personalized,Uncertain,0.5727272727272728,1.1102230246251565e-16,29,100,10
+diagnosis,5,OAS30781__row00524,global,CN,0.93,1.1102230246251565e-16,29,100,0
+diagnosis,5,OAS30781__row00524,personalized,CN,0.9181818181818182,2.220446049250313e-16,29,100,10
+severity,0,OAS30657__row00419,global,0,0.84,1.6653345369377348e-16,22,100,0
+severity,0,OAS30657__row00419,personalized,0,0.8454545454545455,1.6653345369377348e-16,22,100,10
+severity,5,OAS30707__row00444,global,0,0.55,1.6653345369377348e-16,22,100,0
+severity,5,OAS30707__row00444,personalized,0,0.5818181818181818,5.551115123125783e-17,22,100,10
