@@ -1,0 +1,21 @@
+task,client_id,model,n_samples,n_global_trees,n_local_trees,max_additivity_error,shap_package_version,method
+diagnosis,0,global,5,100,0,1.1102230246251565e-16,0.50.0,TreeSHAP component composition
+diagnosis,0,personalized,5,100,10,2.220446049250313e-16,0.50.0,TreeSHAP component composition
+diagnosis,1,global,5,100,0,1.1102230246251565e-16,0.50.0,TreeSHAP component composition
+diagnosis,1,personalized,5,100,10,2.220446049250313e-16,0.50.0,TreeSHAP component composition
+diagnosis,2,global,5,100,0,2.1163626406917047e-16,0.50.0,TreeSHAP component composition
+diagnosis,2,personalized,5,100,10,3.3306690738754696e-16,0.50.0,TreeSHAP component composition
+diagnosis,3,global,5,100,0,1.6653345369377348e-16,0.50.0,TreeSHAP component composition
+diagnosis,3,personalized,5,100,10,1.1102230246251565e-16,0.50.0,TreeSHAP component composition
+diagnosis,4,global,5,100,0,3.3306690738754696e-16,0.50.0,TreeSHAP component composition
+diagnosis,4,personalized,5,100,10,2.3592239273284576e-16,0.50.0,TreeSHAP component composition
+diagnosis,5,global,5,100,0,3.3306690738754696e-16,0.50.0,TreeSHAP component composition
+diagnosis,5,personalized,5,100,10,2.498001805406602e-16,0.50.0,TreeSHAP component composition
+diagnosis,6,global,5,100,0,1.5785983631388945e-16,0.50.0,TreeSHAP component composition
+diagnosis,6,personalized,5,100,10,2.220446049250313e-16,0.50.0,TreeSHAP component composition
+diagnosis,7,global,5,100,0,2.8622937353617317e-16,0.50.0,TreeSHAP component composition
+diagnosis,7,personalized,5,100,10,2.5326962749261384e-16,0.50.0,TreeSHAP component composition
+diagnosis,8,global,5,100,0,6.38378239159465e-16,0.50.0,TreeSHAP component composition
+diagnosis,8,personalized,5,100,10,5.134781488891349e-16,0.50.0,TreeSHAP component composition
+diagnosis,9,global,5,100,0,2.220446049250313e-16,0.50.0,TreeSHAP component composition
+diagnosis,9,personalized,5,100,10,2.220446049250313e-16,0.50.0,TreeSHAP component composition

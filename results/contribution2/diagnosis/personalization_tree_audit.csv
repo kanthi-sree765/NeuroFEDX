@@ -1,0 +1,11 @@
+client_id,global_tree_count,personalization_tree_count,personalized_tree_count,personalization_source
+0,100,10,110,client_personalization_train_only
+1,100,10,110,client_personalization_train_only
+2,100,10,110,client_personalization_train_only
+3,100,10,110,client_personalization_train_only
+4,100,10,110,client_personalization_train_only
+5,100,10,110,client_personalization_train_only
+6,100,10,110,client_personalization_train_only
+7,100,10,110,client_personalization_train_only
+8,100,10,110,client_personalization_train_only
+9,100,10,110,client_personalization_train_only
