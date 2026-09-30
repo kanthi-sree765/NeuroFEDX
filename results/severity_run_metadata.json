@@ -1,0 +1,45 @@
+{
+  "target": "severity_label",
+  "definition": {
+    "0": "CDRTOT == 0",
+    "1": "CDRTOT == 0.5",
+    "2": "CDRTOT >= 1"
+  },
+  "n_rows": 6036,
+  "n_subjects": 1288,
+  "train_rows": 4819,
+  "test_rows": 1217,
+  "train_subjects": 1030,
+  "test_subjects": 258,
+  "subject_overlap": 0,
+  "excluded_target_derived": [
+    "CDRSUM",
+    "CDRTOT",
+    "commun",
+    "homehobb",
+    "judgment",
+    "memory",
+    "orient",
+    "perscare"
+  ],
+  "n_input_features_before_pearson": 27,
+  "n_input_features_after_pearson": 22,
+  "pearson_threshold": 0.95,
+  "knn_neighbors": 2,
+  "smote": "training_only, k_neighbors=5, random_state=42",
+  "rf_params": {
+    "n_estimators": 100,
+    "criterion": "gini",
+    "max_depth": 30,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "random_state": 42,
+    "class_weight": null
+  },
+  "federated_method": "existing round-wise RF tree pooling; not parameter-vector FedAvg",
+  "federated_clients": 10,
+  "federated_rounds": 50,
+  "global_trees": 100
+}

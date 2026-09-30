@@ -1,0 +1,9 @@
+excluded_target_derived_column,reason
+CDRSUM,direct CDR-derived target component
+CDRTOT,defines severity target
+commun,direct CDR-derived target component
+homehobb,direct CDR-derived target component
+judgment,direct CDR-derived target component
+memory,direct CDR-derived target component
+orient,direct CDR-derived target component
+perscare,direct CDR-derived target component
