@@ -1,0 +1,12 @@
+task,system,trees,serialized_size_bytes,additional_local_trees,overhead_bytes,client_id
+severity,global_federated,100,1095868,0,0,
+severity,personalized_client,110,1171196,10,75328,0.0
+severity,personalized_client,110,1121036,10,25168,1.0
+severity,personalized_client,110,1138284,10,42416,2.0
+severity,personalized_client,110,1124732,10,28864,3.0
+severity,personalized_client,110,1131772,10,35904,4.0
+severity,personalized_client,110,1122796,10,26928,5.0
+severity,personalized_client,110,1139692,10,43824,6.0
+severity,personalized_client,110,1128604,10,32736,7.0
+severity,personalized_client,110,1129660,10,33792,8.0
+severity,personalized_client,110,1139164,10,43296,9.0

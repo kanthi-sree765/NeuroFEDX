@@ -1,0 +1,2 @@
+system,task,training_time_mean,training_time_median,training_time_std,training_time_min,training_time_max,cpu_process_time_mean,model_size_bytes,inference_single_mean,inference_single_median,inference_batch_mean,inference_batch_median,n_train,n_test,process_rss_snapshot_bytes,communication_bytes
+centralized,diagnosis,0.35263759999985006,0.34146250000048894,0.027939177555119665,0.32917519999318756,0.4123451000050409,3.09375,12607425,0.10748155000037514,0.08681880000949604,0.10794591500089154,0.0896123999991687,10502,953,253100032,

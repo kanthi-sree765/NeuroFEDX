@@ -1,0 +1,7 @@
+task,system,single_sample_seconds,batch_seconds
+diagnosis,centralized,0.1074815500003751,0.1079459150008915
+diagnosis,global_federated,0.0048045450013887,0.0053563599984045
+diagnosis,personalized_federated,0.0050181845004408,0.0053547779995278
+severity,centralized,0.1266594450004049,0.1346813700009079
+severity,global_federated,0.0041180250016623,0.004504860000452
+severity,personalized_federated,0.004158474500291,0.0046522745001129

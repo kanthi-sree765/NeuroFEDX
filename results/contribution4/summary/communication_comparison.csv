@@ -1,0 +1,3 @@
+task,total_upload_bytes,total_simulated_broadcast_bytes,simulated_communication_bytes,average_bytes_per_round,average_bytes_per_client_round
+diagnosis,47349716,48055012,95404728,1908094.56,190809.456
+severity,54748356,54684168,109432524,2188650.48,218865.048

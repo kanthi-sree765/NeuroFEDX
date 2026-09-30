@@ -1,0 +1,3 @@
+task,rounds,rounds_are_1_to_50,clients,client_round_rows,global_trees,upload_nonnegative,simulated_broadcast_nonnegative,cumulative_monotonic,all_times_nonnegative
+diagnosis,50,True,10,500,100,True,True,True,True
+severity,50,True,10,500,100,True,True,True,True

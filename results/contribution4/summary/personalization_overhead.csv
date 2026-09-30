@@ -1,0 +1,3 @@
+task,personalization_time_mean,personalization_time_total,personalization_time_over_global_fl,personalized_model_size_mean,global_model_size,personalized_size_over_global,federated_over_centralized_training_time
+diagnosis,0.1705340400003479,1.7053404000034789,0.030508798382014295,1003975.4,975034,1.0296824520991064,158.5102535861835
+severity,0.0843984699997236,0.843984699997236,0.01723486541860856,1134693.6,1095868,1.0354290845247784,148.8637062305321

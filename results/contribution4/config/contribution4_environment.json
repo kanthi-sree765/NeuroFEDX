@@ -1,0 +1,33 @@
+{
+  "python_version": "3.12.2",
+  "scikit_learn_version": "1.8.0",
+  "shap_version": "0.50.0",
+  "cpu_logical_count": 16,
+  "ram_bytes": 16849256448,
+  "operating_system": "Windows 11",
+  "rf_configuration": {
+    "n_estimators": 100,
+    "criterion": "gini",
+    "max_depth": 30,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "random_state": 42,
+    "class_weight": null
+  },
+  "n_clients": 10,
+  "n_rounds": 50,
+  "trees_per_client": 10,
+  "global_trees": 100,
+  "personalization_trees": 10,
+  "seed": 42,
+  "timing_method": "time.perf_counter",
+  "timing_repetitions": 7,
+  "inference_repetitions": 20,
+  "memory_method": "process RSS snapshots; these are not stage-isolated peak-memory measurements",
+  "network_latency": "NOT MEASURED",
+  "network_bandwidth": "NOT MEASURED",
+  "communication_definition": "actual local-forest serialization/upload payload sizes plus a simulated server-to-client global-forest broadcast payload size; the broadcast is not transmitted or reused by the current single-process RF tree-pooling loop",
+  "warmup": "one prediction warm-up before inference timing; SHAP uses C3's existing sample selection and explanation method"
+}

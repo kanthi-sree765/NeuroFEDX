@@ -1,0 +1,3 @@
+task,final_round_count,client_count,global_tree_count,instrumented_vs_existing_c2_predictions_equal,instrumented_vs_existing_c2_probabilities_exact,personalized_client0_predictions_equal
+diagnosis,50,10,100,True,True,True
+severity,50,10,100,True,True,True
